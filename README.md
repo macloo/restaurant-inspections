@@ -1,6 +1,8 @@
 # restaurant-inspections
 Some code to gather, sort and clean up restaurant inspection data from the state of Florida
+
 Goal: To publish info on serious health problems identified in inspections at local restaurants.
+
 High level approach:
 
 Build database of restaurant inspection information
