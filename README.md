@@ -1,24 +1,22 @@
 # restaurant-inspections
 Some code to gather, sort and clean up restaurant inspection data from the state of Florida
 Goal: To publish info on serious health problems identified in inspections at local restaurants.
-Approach:
-1. Gather data: 
-Available as a csv file at http://www.myfloridalicense.com/DBPR/hotels-restaurants/public-records/#1506344763000-101d4ee5-7a59
-2. Reduce unneeded data:
-Data set for Alachua County + with “High Priority” violations + within time frame (1 week). Time frame may be user input range,
-or within a week prior to running the script.
-- Read in csv
-- Remove unnecessary columns: keep 'CountyName', 'LicenseID', 'VisitID', 'VisitDate', 'HighPriority' 
-- Filter for Alachua County records
-- Filter for serious violations
-- Filter for date range
-- Place 'LicenseID' and 'VisitID' into url that accesses detailed reports
-3. Use url list to scape data for high priority violators
-- scrape individual reports
-- filter for the tags we want
-- format in readable text
-- output into text file
-- email text file to recipients
+High level approach:
+
+Build database of restaurant inspection information
+1. Get data from state summary reporton restaurant inspections in our district, filtered for fields we need.
+2. Use that for two purposes:
+A. Filter for new reports added since script last run, and place new data into database table.
+B. Create a list of URLs for the detailed reports in what inspectors observed.
+3. Iterate through the URLs to scrape the data of observations, clean that up, and save into a separate table in the database.
+4. All of the above may be set as a chon job to run daily so the load on state servers isn't so heavy.
+
+Generate report for publication // this might be a separate script4.
+1. Set a time period for what we'll publisher, either from user input or from pre-determined time frame like proir week.
+2. Pull data from database and format for publication, saved as txt file.
+3. Email the file or make available for download.
+4. This step may be implemented as a web page that user can access, or as a chron job.
+
 Final result might look like this:
 Bubba's BBQ, 123 NW 4th Ave., Gainesville, had a routine inspection on May 1.
 A total of four violations were noted, two of are considered "high priority."
