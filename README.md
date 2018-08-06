@@ -13,7 +13,7 @@ B. Create a list of URLs for the detailed reports in what inspectors observed.
 3. Iterate through the URLs to scrape the data of observations, clean that up, and save into a separate table in the database.
 4. All of the above may be set as a chon job to run daily so the load on state servers isn't so heavy.
 
-Generate report for publication // this might be a separate script4.
+Generate report for publication // this might be a separate script from above.
 1. Set a time period for what we'll publisher, either from user input or from pre-determined time frame like proir week.
 2. Pull data from database and format for publication, saved as txt file.
 3. Email the file or make available for download.
