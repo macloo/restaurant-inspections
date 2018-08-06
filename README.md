@@ -6,6 +6,8 @@ Goal: To publish info on serious health problems identified in inspections at lo
 High level approach:
 
 Build database of restaurant inspection information
+
+Code for this script is currently in development in the file rest_inspect_db_builder
 1. Get data from state summary reporton restaurant inspections in our district, filtered for fields we need.
 2. Use that for two purposes:
 A. Filter for new reports added since script last run, and place new data into database table.
