@@ -1,7 +1,8 @@
 # restaurant-inspections
 Some code to gather, sort and clean up restaurant inspection data from the state of Florida
 
-The files here:
+## The files here:
+
 5fdinspi.csv -- a dated copy of the state summary of inspections; a reference
 
 NewScrapeTest.ipynb -- bits of code I'm playing with
@@ -14,9 +15,11 @@ rest_inspect_db_builder -- main piece in development right now; will build our m
 
 rinspect.sqlite -- our main database in development stage
 
-Goal: To publish info on serious health problems identified in inspections at local restaurants.
+## Goal:
 
-High level approach:
+To publish info on serious health problems identified in inspections at local restaurants.
+
+## High level approach:
 
 Build database of restaurant inspection information
 
