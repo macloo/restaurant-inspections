@@ -3,10 +3,15 @@ Some code to gather, sort and clean up restaurant inspection data from the state
 
 The files here:
 5fdinspi.csv -- a dated copy of the state summary of inspections; a reference
+
 NewScrapeTest.ipynb -- bits of code I'm playing with
+
 dbbuilder.ipynb -- code to build (or rebuild) the sqlite database for this project
+
 fud-rebuild.ipynb -- code now in use to scrape from summaries; not a development file but not the end game
+
 rest_inspect_db_builder -- main piece in development right now; will build our main database
+
 rinspect.sqlite -- our main database in development stage
 
 Goal: To publish info on serious health problems identified in inspections at local restaurants.
