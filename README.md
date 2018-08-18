@@ -13,6 +13,8 @@ fud-rebuild.ipynb -- code now in use to scrape from summaries; not a development
 
 rest_inspect_db_builder -- main piece in development right now; will build our main database
 
+report_builder -- code to pull from rinspect.sqlite to build txt file for publication; just getting started here.
+
 rinspect.sqlite -- our main database in development stage
 
 ## Goal:
