@@ -1,0 +1,72 @@
+Violation: 16-03-4
+Details: 17761501
+Observation: Basic - Accumulation of debris inside warewashing machine.
+Heavy line-like build up.
+
+Violation: 24-08-4
+Details: 17761500
+Observation: Basic - Equipment and utensils not properly air-dried - wet nesting.
+Food storage containers above the three compartment sink.
+
+Violation: 16-38-4
+Details: 17761494
+Observation: Basic - Inaccurate/damaged temperature gauge(s) on dishmachine.
+Gauges do not move.
+
+Violation: 21-12-4
+Details: 17761498
+Observation: Basic - Wet wiping cloth not stored in sanitizing solution between uses.
+Cook line
+
+Violation: 02D-01-5
+Details: 17761497
+Observation: Basic - Working containers of food removed from original container not identified by common name.
+Sugar not labeled in cabinet unsolder the beverage station.
+
+Violation: 03D-02-4
+Details: 17761493
+Observation: High Priority - Cooked potentially hazardous (time/temperature control for safety) food not cooled from 135 degrees Fahrenheit to 41 degrees Fahrenheit within 6 hours.
+Three door reach in cooler:
+Sausage Gravy 75°F made on 7/2/2018
+Chili 85°F made on 7/2/2018
+
+Violation: 12A-10-4
+Details: 17761503
+Observation: High Priority - Employee touched bare body part and then engaged in food preparation, handled clean equipment or utensils, or touched unwrapped single-service items without washing hands.
+Two servers touch their face and ear and served plates of food to the customers.
+
+Violation: 22-57-5
+Details: 17761492
+Observation: High Priority - Heat strip failed to indicate the sanitization temperature of 160 degrees Fahrenheit was achieved on the dish surface. Discontinue use of dishmachine for sanitizing and set up manual sanitization until dishmachine is repaired.
+
+Violation: 03A-02-4
+Details: 17761499
+Observation: High Priority - Potentially hazardous (time/temperature control for safety) food cold held at greater than 41 degrees Fahrenheit.
+Cook line cooler:
+Cut Lettuce 57°F in the cooler overnight. **Repeat Violation**
+
+Violation: 03B-01-5
+Details: 17761502
+Observation: High Priority - Potentially hazardous (time/temperature control for safety) food hot held at less than 135 degrees Fahrenheit or above.
+Hold holding unit by the office.
+Grits 109°F
+
+Violation: 03F-02-4
+Details: 17761495
+Observation: High Priority - Potentially hazardous (time/temperature control for safety) food identified in the written procedure as a food held using time as a public health control has no time marking and the time removed from temperature control cannot be determined. 
+Cook Line: Shell eggs, time was marked during this inspection. **Corrected On-Site**
+
+Violation: 01B-02-4
+Details: 17761496
+Observation: High Priority - Stop Sale issued on potentially hazardous (time/temperature control for safety) food due to temperature 
+abuse.
+
+Potentially hazardous (time/temperature control for safety) food cold held at greater than 41 degrees Fahrenheit.
+Cook line cooler:
+Cut Lettuce 57°F in the cooler overnight.
+
+Cooked potentially hazardous (time/temperature control for safety) food not cooled from 135 degrees Fahrenheit to 41 degrees Fahrenheit within 6 hours.
+Three door reach in cooler:
+Sausage Gravy 75°F made on 7/2/2018
+Chili 85°F made on 7/2/2018 **Repeat Violation**
+
