@@ -1,5 +1,6 @@
 # violations go individually into a table - doug 8/22
 conn = sqlite3.connect(sqlite_file)
+c = conn.cursor()
 
 def make_obs():
     visitid = url.split("VisitID=")[1].split("&")[0]
@@ -18,11 +19,13 @@ def make_obs():
             p = re.compile("(\(')((.)*)('\))")
             m = p.search( str(popup) )
             details_id = m.group(2)
-            c = conn.cursor()
-            c.execute('''INSERT OR IGNORE INTO observed (visitid, violation, details_id, obs) VALUES (?,?,?,?)''', var)
+            vals = (visitid, violation, details_id, obs)
+            # db table named violations already exists
+            c.execute('''INSERT OR IGNORE INTO violations (visitid, violation, details_id, obs) VALUES (?,?,?,?)''', vals)
             conn.commit()
-
-conn.close()
 
 for url in urlList:
     make_obs()
+
+# close after all violations have been written into table
+conn.close()
